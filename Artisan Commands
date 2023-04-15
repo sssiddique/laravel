@@ -1,3 +1,6 @@
+=> Install Laravel into local machine
+composer create-project --prefer-dist laravel/laravel blog
+
 => To Run Laravel Application
 php artisan serve
 
@@ -10,7 +13,7 @@ php artisan make:Model ModelName
 => To make new middleware class
 php artisan make:Middleware MiddleWareName
 
-=>To make migration file
+=> To make migration file
 php artisan make:migration tableName
 
 => To run migration
