@@ -1,0 +1,29 @@
+=> To Run Laravel Application
+php artisan serve
+
+=> To make new controller
+php artisan make:Controller ControllerName
+
+=> To make new model
+php artisan make:Model ModelName
+
+=> To make new middleware class
+php artisan make:Middleware MiddleWareName
+
+=>To make migration file
+php artisan make:migration tableName
+
+=> To run migration
+php artisan migrate
+
+=> Clear Application Cache
+php artisan cache:clear
+
+=> Clear Route Cache
+php artisan route:clear
+
+=> Clear Config Cache
+php artisan config:clear
+
+=> Clear Compiled View Files
+php artisan view:clear
